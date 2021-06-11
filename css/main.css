@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+
+body{
+    overflow: hidden;
+
+}
+
+header{
+    border: 1px solid black;
+    height: 10vh;
+    max-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    border: 1px solid black;
+    height: 90vh;
+    border-collapse: collapse;
+}
+
+#contacts{
+    border: 1px solid black;
+    width: 20vw;
+    height: 90vh;
+}
+
+#messages{
+    border: 1px solid black;
+    width: 80vw;
+    height: 90vh;
+}
+
+
+
+
+
+
+
+
+
+
