@@ -95,57 +95,57 @@ if (isset($_POST) && !empty($_POST)) {
     </div>
 </main>
 
-        <div class="container h-100">
+<div class="container h-100">
 
-        <div class="row h-100 justify-content-center align-items-center">
+    <div class="row h-100 justify-content-center align-items-center">
 
-<form action="" method="post" class="needs-validation border border border-dark " style="height: 600px; width: 500px; background-color: #005a9e;" novalidate>
-    <h2 class="text-center mt-2 mb-5 text-white">S'authentifier</h2>
+        <form action="" method="post" class="needs-validation border border border-dark " style="height: 600px; width: 500px; background-color: #005a9e;" novalidate>
+            <h2 class="text-center mt-2 mb-5 text-white">S'authentifier</h2>
 
-    <!--    on/off-->
-    <div class="row col-12">
-        <p class="col-9"></p>
-        <div class="onoffswitch col-3" id="positionSwitch">
-            <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
-            <label class="onoffswitch-label" for="myonoffswitch">
-                <span class="onoffswitch-inner"></span>
-<!--               <span class="onoffswitch-switch"></span>-->
-            </label>
-        </div>
-    </div>
-
-
-    <div class="form-group d-flex flex-column align-items-center mt-3" >
-        <div class="col-md-8">
-            <label for="email" class="text-white">Email :</label>
-            <input type="text" class="form-control border border-dark" id="email" name="email" value="<?php if (isset($email)){echo $email;}?>" placeholder="exemple@gmail.com" minlength="6" maxlength="15" required>
-            <div class="invalid-feedback text-center">
-                Merci de compléter le champ pseudo.
+            <!--    on/off-->
+            <div class="row col-12">
+                <p class="col-9"></p>
+                <div class="onoffswitch col-3" id="positionSwitch">
+                    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
+                    <label class="onoffswitch-label" for="myonoffswitch">
+                        <span class="onoffswitch-inner"></span>
+                        <!--               <span class="onoffswitch-switch"></span>-->
+                    </label>
+                </div>
             </div>
-        </div>
-        <div class="col-md-8">
-            <label for="password" class="text-white">Mot de passe :</label>
-            <input type="password" class="form-control border border-dark" id="password" name="password" value="<?php if (isset($password)){echo $password;}?>" minlength="8" maxlength="15" required>
-            <div class="invalid-feedback text-center">
-                Merci de compléter le champ mot de passe.
+
+
+            <div class="form-group d-flex flex-column align-items-center mt-3" >
+                <div class="col-md-8">
+                    <label for="email" class="text-white">Email :</label>
+                    <input type="text" class="form-control border border-dark" id="email" name="email" value="<?php if (isset($email)){echo $email;}?>" placeholder="exemple@gmail.com" minlength="6" maxlength="15" required>
+                    <div class="invalid-feedback text-center">
+                        Merci de compléter le champ pseudo.
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <label for="password" class="text-white">Mot de passe :</label>
+                    <input type="password" class="form-control border border-dark" id="password" name="password" value="<?php if (isset($password)){echo $password;}?>" minlength="8" maxlength="15" required>
+                    <div class="invalid-feedback text-center">
+                        Merci de compléter le champ mot de passe.
+                    </div>
+                </div>
             </div>
-        </div>
-    </div>
-    <div class="text-center mb-2">
-        <a href="motDePasse.php" class="text-white">Mot de passe oublié ?</a>
-    </div>
+            <div class="text-center mb-2">
+                <a href="motDePasse.php" class="text-white">Mot de passe oublié ?</a>
+            </div>
 
-    <div class="text-center mt-4">
-        <button type="submit" id="form-submit" class="btn btn-primary btn-lg pull-right bg-white text-dark border border-dark">Connexion</button>
-    </div>
+            <div class="text-center mt-4">
+                <button type="submit" id="form-submit" class="btn btn-primary btn-lg pull-right bg-white text-dark border border-dark">Connexion</button>
+            </div>
 
-<!--    <div class="text-center mt-5 d-flex ">-->
+            <!--    <div class="text-center mt-5 d-flex ">-->
 
-        <p class="text-white d-flex justify-content-left ml-3 mt-5">Pas encore inscrit ?</p>
-        <a class="btn btn-primary btn-lg bg-white text-dark border border-dark justify-content-left ml-3" href="inscription.php" role="button">S'inscrire</a>
-<!--    </div>-->
-</form>
-            </div></div>
+            <p class="text-white d-flex justify-content-left ml-3 mt-5">Pas encore inscrit ?</p>
+            <a class="btn btn-primary btn-lg bg-white text-dark border border-dark justify-content-left ml-3" href="inscription.php" role="button">S'inscrire</a>
+            <!--    </div>-->
+        </form>
+    </div></div>
 
 <script>  //script bootstrap pour formulaire
     // Example starter JavaScript for disabling form submissions if there are invalid fields
