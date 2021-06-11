@@ -10,3 +10,4 @@ Le but de cet exercice est de pouvoir mettre en pratique la gestion de projet:
 
 👩‍💻 **But du projet** 👨‍💻
 - Créer une messagerie instantanée liant des groupes de personnes.
+
