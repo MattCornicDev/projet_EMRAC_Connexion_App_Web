@@ -115,7 +115,7 @@
                                 <label for="exampleFormControlTextarea1">Conversation</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="30"></textarea>
                             </div>
-                            <input type="text" class="form-control"  name="message" id="message" rows="3" placeholder="Saisissez votre message ...">
+                            <textarea class="form-control" name="message" id="message" rows="3" placeholder="Saisissez votre message ..."></textarea>
                             <br/>
                             <button type="submit" class="btn btn-primary center-block" style="background-color: #005a9e">Envoyer</button>
                         </div>
