@@ -41,7 +41,7 @@
 <!--        Photo de profil en lien vers la page profil -->
         <div class=" col-lg-1 pull-left">
             <img src="images/profil.png" href="" class="img-circle" style="width: 50px; margin-top: 5px">
-            <a href="" class="" style="font-weight: bold; color: white; " >Pseudo</a>
+            <a href="profil.php" class="" style="font-weight: bold; color: white; " >Pseudo</a>
         </div>
 
 
@@ -115,7 +115,7 @@
                                 <label for="exampleFormControlTextarea1">Conversation</label>
                                 <textarea class="form-control" id="exampleFormControlTextarea1" rows="30"></textarea>
                             </div>
-                            <input type="text" class="form-control"  name="message" id="message" placeholder="Saisissez votre message ...">
+                            <input type="text" class="form-control"  name="message" id="message" rows="3" placeholder="Saisissez votre message ...">
                             <br/>
                             <button type="submit" class="btn btn-primary center-block" style="background-color: #005a9e">Envoyer</button>
                         </div>
