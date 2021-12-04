@@ -119,7 +119,7 @@ if (isset($_POST) && !empty($_POST)) {
      <div class="row h-100 justify-content-center align-items-center">
 
 
-    <form action="" method="post" class="needs-validation border border border-dark" style="height: 750px; width: 500px; background-color: #005a9e;" novalidate>
+    <form action="" method="post" class="needs-validation border border border-dark" style="height: 835px; width: 500px; background-color: #005a9e;" novalidate>
         <h2 class="text-center mt-2 mb-3 text-white">Page d'inscription</h2>
         <h6 class="text-center text-white mb-4">Créer votre profil</h6>
         <div class="form-group d-flex flex-column align-items-center mt-2" >
