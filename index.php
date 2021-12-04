@@ -99,7 +99,7 @@ if (isset($_POST) && !empty($_POST)) {
 
     <div class="row h-100 justify-content-center align-items-center">
 
-        <form action="" method="post" class="needs-validation border border border-dark " style="height: 600px; width: 500px; background-color: #005a9e;" novalidate>
+        <form id="cadre_interne" action="" method="post" class="needs-validation border border border-dark " style="height: 600px; width: 500px; background-color: #005a9e;" novalidate>
             <h2 class="text-center mt-2 mb-5 text-white">S'authentifier</h2>
 
             <!--    on/off-->
@@ -167,5 +167,6 @@ if (isset($_POST) && !empty($_POST)) {
         }, false);
     })();
 </script>
+<script src="Javascript/index.js"></script>
 </body>
 </html>

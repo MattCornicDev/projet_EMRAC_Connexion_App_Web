@@ -45,9 +45,3 @@
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px;
 }
-body.dark{
-    background-color: #1a1a1a;
-}
-cadre_interne {
-    background-color: gray;
-}
